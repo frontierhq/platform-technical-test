@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repo is part of a platform technical test. The intent is for read access to be granted to candidates, who should then fork it and complete the tasks below.
+This platform technical test is designed to test a candidate's capability to define infrastructure and application as code, including working with a scripting language and creating a basic CI/CD pipeline. The intent is for read access to be granted to candidates, who should then fork it and complete the tasks below.
 
 ## Setup
 
@@ -15,11 +15,11 @@ This repo is part of a platform technical test. The intent is for read access to
 
 ## Tasks
 
-For each task, there's a basic requirement and in some cases an additional advanced requirement. The advanced requirements are optional. Best approach is to complete the basic requirements and then circle back to the advanced if you want to.
+For each task, there's a basic requirement and in some cases an additional advanced requirement. The advanced requirements are optional. The recommended approach is to complete the basic requirements and then circle back to the advanced.
 
 | # | Title | Description |
 |---|---|---|
-| 1 | Resource Group | Using Terraform resources, configure an `Azure Resource Group`.<br><br>**Advanced:** (none) |
+| 1 | Resource Group | Using Terraform resources, configure an `Azure Resource Group`. |
 | 2 | Storage Account | Using Terraform resources, configure an `Azure Storage Account`. It should be for general purpose use, and provide redundancy across availability zones.<br><br>**Advanced:** Configure networking settings on the Storage Account to remove public access, except for Azure services on the [trusted services list](https://learn.microsoft.com/en-gb/azure/storage/common/storage-network-security?tabs=azure-portal#grant-access-to-trusted-azure-services). |
 | 3 | Kubernetes Service | Using Terraform resources, configure an `Azure Kubernetes Service` cluster. It should have a single node of SKU `Standard_B4ms` and have Azure Policy enabled.<br><br>**Advanced:** Configure Diagnostic Logging to archive `Kubernetes Scheduler` logs to the Storage Account created in step 2. |
 | 4 | Kubernetes Application | Using Kubernetes resources, configure a `Deployment` that runs a single replica of [hashicorp/http-echo](https://hub.docker.com/r/hashicorp/http-echo). It should be configured to respond to an HTTP request with `Hello, [your name]`. Configure a `Service` to expose the deployment to the cluster only.<br><br>**Advanced:** Re-configure the `Service` to expose the application to the internet using a public IP. Add configuration to enable a DNS label to be mapped to the public IP (hint: search for `service.beta.kubernetes.io/azure-dns-label-name`). |

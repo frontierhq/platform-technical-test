@@ -10,8 +10,8 @@ def destroy():
 
     destroy_terraform(
         terraform=terraform,
-        # var={},
-        # var_file=os.path.join(os.getcwd(), "config", "main.tfvars"),
+        # var={}, # Uncomment to pass variables to terraform
+        # var_file=os.path.join(os.getcwd(), "config", "main.tfvars"), # Uncomment to pass variables file to terraform
     )
 
 
