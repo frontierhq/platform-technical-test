@@ -6,7 +6,8 @@ authors = [
 ]
 requires-python = ">=3.11"
 dependencies = [
-    "python-terraform (>=0.10.1,<0.11.0)"
+    "python-terraform (>=0.10.1,<0.11.0)",
+    "kubernetes (>=32.0.0,<33.0.0)"
 ]
 
 [build-system]
