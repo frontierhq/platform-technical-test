@@ -15,7 +15,7 @@ This repo is part of a platform technical test. The intent is for read access to
 
 For each task, there's a basic requirement and in some cases an additional advanced requirement. The advanced requirements are optional. Best approach is to complete the basic requirements and then circle back to the advanced if you want to.
 
-| Task Number | Title | Description |
+| # | Title | Description |
 |---|---|---|
 | 1 | Resource Group | Using Terraform resources, configure an `Azure Resource Group`.<br><br>**Advanced:** (none) |
 | 2 | Storage Account | Using Terraform resources, configure an `Azure Storage Account`. It should be for general purpose use.<br><br>**Advanced:** Configure networking settings on the Storage Account to remove public access, except for Azure services on the [trusted services list](https://learn.microsoft.com/en-gb/azure/storage/common/storage-network-security?tabs=azure-portal#grant-access-to-trusted-azure-services). |
