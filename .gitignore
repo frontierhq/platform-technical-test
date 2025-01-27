@@ -2,6 +2,10 @@
 .vscode
 
 # python
-.venv
+__pycache__
+
+# terraform
+.terraform
+terraform.tfstate
 
 # other
