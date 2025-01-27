@@ -6,8 +6,8 @@ This repo is part of a platform technical test. The intent is for read access to
 
 ## Setup
 
-1. Install Python >= 3.11 (check an existing installation with `python --version`) following the [vendor instructions](https://www.python.org/downloads/).
-1. Install Poetry following the [vendor instructions](https://python-poetry.org/docs/#installation).
+1. Install Python >= 3.11 following the [vendor instructions](https://www.python.org/downloads/).
+1. Install Poetry >= 2.0 following the [vendor instructions](https://python-poetry.org/docs/#installation).
 1. Install Terraform following the [vendor instructions](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli#install-terraform).
 1. Install `kubeconform` following the [vendor instructions](https://github.com/yannh/kubeconform?tab=readme-ov-file#installation).
 1. Run `poetry sync` to install Python dependencies.
