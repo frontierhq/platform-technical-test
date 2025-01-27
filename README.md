@@ -15,8 +15,6 @@ This repo is part of a platform technical test. The intent is for read access to
 
 For each task, there's a basic requirement and in some cases an additional advanced requirement. The advanced requirements are optional. Best approach is to complete the basic requirements and then circle back to the advanced if you want to.
 
-## Task Overview
-
 | Task Number | Title | Description |
 |---|---|---|
 | 1 | Resource Group | Using Terraform resources, configure an `Azure Resource Group`.<br><br>**Advanced:** (none) |
